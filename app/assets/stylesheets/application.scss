@@ -19,8 +19,8 @@
   margin: 0;
   padding: 0;
 }
-h1.titulos{font-size: 18px}
-p{font-size: 30px;}
+h1#titulos{font-size: 50px}
+p{font-size: 40px;}
 article{margin: 10px;}
 /*Nav*/
 #logo{
@@ -28,20 +28,20 @@ article{margin: 10px;}
 	margin:auto;
 	width: 60%;
 }
-#dropdownMenuButton{font-size: 30px}
+#dropdownMenuButton{font-size: 50px}
 .dropdown-toggle, .dropdown-menu{
 	background-color: #667C63;
 	color: white;
 	display: block;
-	font-size: 50px;
+	font-size: 40px;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 }
 div .dropdown-menu li#dropdown-item a{
 	width: 100%;
 	background-color:white;
     color:#667C63; 
-    font-size: 30px;
+    font-size: 40px;
     display:block;
     text-align: center;
 }
@@ -49,7 +49,7 @@ div .dropdown-menu li#dropdown-item a:hover{
     background-color:#667C63;
     opacity: 0.8;
     color:#fff;
-    font-size: 30px;
+    font-size: 40px;
     transition:0.5s;
 }
 /*Footer*/
@@ -76,7 +76,7 @@ div#aliados, #redes {
 #alegra{
 	margin-top: 8px;
 	margin-bottom: 0;
-	width: 100%;
+	width: 1000px;
 	opacity: 0.4;
 }
 .info{
