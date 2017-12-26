@@ -1,0 +1,35 @@
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <%= link_to image_tag("publicidaddecompostaje.PNG", id: "publicidaddecompostaje", :class => "d-block img-fluid carousel-img", :alt => "First slide"), "#" %>
+    </div>
+    <div class="carousel-item">
+      <%= link_to image_tag("cerrodemoravia.jpg", id: "cerrodemoravia", :class => "d-block img-fluid carousel-img", :alt => "Second slide"), moraviafloreceparalavida_url %>
+      <div class="carousel-caption d-md-block">
+        <h3>Moravia Florece Para La vida</h3>  
+        <p>El antiguo vertedero de basura al aire libre es ahora icono de transformacion socio-ambiental del Barrio Moravia en Medellín.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <%= link_to image_tag("fachadaunidadproductivajarum.PNG", id: "fachadaunidadproductivajarum", :class => "d-block img-fluid carousel-img", :alt => "Third slide"), "#" %> 
+      <div class="carousel-caption d-md-block">
+        <h3>Unidad productiva de JARUM</h3>  
+        <p>Nuestra primera unidad productiva ubicada en Moravia</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+<button class="btn btn-danger">noo</button>

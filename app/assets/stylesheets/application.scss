@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */ 
+@import "bootstrap";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+p{font-size: 14px}
+h1.titulos{font-size: 18px}
+/*Nav*/
+#logo{
+	display: block;
+	margin:auto;
+	width: 60%;
+}
+
+.dropdown-toggle, .dropdown-menu{
+	background-color: #667C63;
+	color: white;
+	display: block;
+	width: 100%;
+}
+div .dropdown-menu li#dropdown-item a{
+	width: 100%;
+	background-color:white;
+    color:#667C63; 
+    display:block;
+    text-align: center;
+}
+div .dropdown-menu li#dropdown-item a:hover{
+    background-color:#667C63;
+    opacity: 0.8;
+    color:#fff;
+    transition:0.5s;
+}
+/*Footer*/
+div#aliados, #redes {
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: space-between;
+	flex-wrap: wrap;
+}
+#redes{justify-content: space-around}
+.redes{color: gray}
+.aliados{
+	width: 75px;
+	opacity: 0.4;
+}
+#alcaldia, #cdcm{width: 150px}
+#parqueexplora{margin-top: 15px}
+#alegra{
+	margin-top: 8px;
+	margin-bottom: 0;
+	width: 100%;
+	opacity: 0.4;
+}
+.info{
+	margin:auto;
+	color:gray;
+	text-align: center;
+	font-size: 10px;
+}
