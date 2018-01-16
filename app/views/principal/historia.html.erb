@@ -1,1 +1,23 @@
-historia.html.erb
+<article>
+	<h1>JARDINEROS UNIDOS DE MORAVIA</h1>
+	<%= image_tag("jardinerosdejarum.jpg", :alt => "Jardineros unidos de Moravia",  id:"imagen") %>
+	<div class="img_descripcion" >Miembros de Jarum en la unidad productiva principal</div>
+	<p>Jarum  nace del Macroproyecto <%=link_to "Moravia florece para la vida", "moraviafloreceparalavida_path",  target: "_blank" %> como una corporación que transforma basura en jardines. Cuyo objetivo principal es invertir en el mercado del medio ambiente en pro del paisajismo ( urbano y rural ) y la recuperación de especies vegetales en vía de extinción.
+	</p>
+	<br>
+	<h2>Jarum es un corporación de emprendedores comprometidos 100% con el ambiente.</h2>
+	<%= image_tag("jarumjesicagomez.jpg", :alt => "Jesica Alexandra Gómez Murillo", id:"imagen")%>
+	<div class="img_descripcion" >Jesica Gómez en feria ambietal del CDCM</div>
+	<h2>Objetivo de JARUM</h2>
+	<p>El objetivo principal de JARUM es Intervenir en el mercado del Medio Ambiente en pro del paisajismo ambiental de la Ciudad de Medellín y su Área Metropolitana aplicando las técnicas y las nuevas tecnologías, en la recuperación de los suelos y especies de plantas exóticas y enigmáticas, al igual que la producción y comercialización de plantas ornamentales de florescencia y no florescencia, arbustos, árboles y actividades derivadas en su actuar para el cumplimiento de su objeto social</p>
+	<section id="historia_jarum_img">
+	   <div id="section_historia">
+	   		<%= image_tag("miembrosdejarum.jpg", :class => "img-fluid", :alt => "Jardineros unidos de Moravia",  id:"imagen") %>
+	    	<div class="img_descripcion" >Miembros de Jarum </div>
+	   </div>
+	   <div id="section_historia">
+	        <%= image_tag("viverojarum.jpg", :class => "img-fluid",:alt => "Jardineros unidos de Moravia",  id:"imagen") %>
+	    	<div class="img_descripcion" >Vivero de Jarum</div> 		
+	   </div>
+	</section>
+</article>
